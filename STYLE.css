@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+}
+
+main{
+    width: 100%;
+    height: 693px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 693px;
+    background-color: gray;
+
+}
+
+.seccion1{
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.area{
+     width: 80%;
+     height: 500px;
+     display: block;  
+     margin: auto;
+     margin-top: 20px;
+     resize: none;
+     font-size: 25px;
+}
+
+.btn-Encriptar{
+    
+}
+
+.btn-Desencriptar{
+    
+
+}
+
+.btn-encriptar, .btn-desencriptar{
+    width: 25%;
+    height: 40px;
+}
+
+.contenedor-boton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seccion2{
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.contenedor-muñeco{
+     width: 100%;
+     height: 60px;
+     padding-top: 60px;
+     box-sizing: border-box;
+}
+
+.muñeco{
+    width: 100%;
+    padding-top: 20%;
+    box-sizing: border-box;
+ 
+}
+
+.contenedor-h3{
+     width: 100%;
+     height: 60px;
+     text-align: center;
+     margin-top: 165%;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20px;
+    margin-top: 175%;
+}
+
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: violet;
+    text-align: center;
+
+
+}
+
+.ocultar{
+    display: none;
+}
